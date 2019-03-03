@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title> 微服务管理框架service mesh——istio安装笔记 - </title>
+  <meta name="description" content="" />
+  <meta property="og:title" content="微服务管理框架service mesh——istio安装笔记" />
+  <meta name="twitter:title" content="微服务管理框架service mesh——istio安装笔记" />
+  <meta name="description" content="对文章的简要描述 SEO used for description">
+  <meta property="og:description" content="对文章的简要描述 SEO used for description">
+  <meta name="twitter:description" content="对文章的简要描述 SEO used for description">
+  <meta name="twitter:card" content="summary" />
+  <meta property="og:url" content="https://marvinpan8.github.io/posts/new/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Marvin Pan" />
+
+  <meta name="generator" content="Hugo 0.54.0" />
+  <link rel="canonical" href="https://marvinpan8.github.io/posts/new/" />
+  <link rel="alternate" href="https://marvinpan8.github.io/index.xml" type="application/rss+xml" title="Marvin Pan">
+  <script src="https://res.cloudinary.com/jimmysong/raw/upload/rootsongjc-hugo/jquery-1.12.4.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  
+  
+  <link rel="stylesheet" href="https://marvinpan8.github.io/css/main.css" />
+  <link rel="stylesheet" href="https://marvinpan8.github.io/css/search.css" />
+  
+  
+
+
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/photoswipe.min.css" integrity="sha256-sCl5PUOGMLfFYctzDW3MtRib0ctyUvI9Qsmq2wXOeBY=" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.1/default-skin/default-skin.min.css" integrity="sha256-BFeI1V+Vh1Rk37wswuOYn5lsTcaU96hGaI7OUVCLjPc=" crossorigin="anonymous" />
+
+
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+<div class="pswp__bg"></div>
+
+<div class="pswp__scroll-wrap">
+    
+    <div class="pswp__container">
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+      <div class="pswp__item"></div>
+    </div>
+    
+    <div class="pswp__ui pswp__ui--hidden">
+    <div class="pswp__top-bar">
+      
+      <div class="pswp__counter"></div>
+      <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+      <button class="pswp__button pswp__button--share" title="Share"></button>
+      <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+      <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+      
+      
+      <div class="pswp__preloader">
+        <div class="pswp__preloader__icn">
+          <div class="pswp__preloader__cut">
+            <div class="pswp__preloader__donut"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+      <div class="pswp__share-tooltip"></div>
+    </div>
+    <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+    </button>
+    <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+    </button>
+    <div class="pswp__caption">
+      <div class="pswp__caption__center"></div>
+    </div>
+    </div>
+    </div>
+</div>
+
+</head>
+
+  <body>
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://marvinpan8.github.io/">Marvin Pan</a>
+    </div>
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        
+        
+      </ul>
+    </div>
+
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+
+
+
+
+    
+  
+  
+  
+
+
+
+
+  
+    <div id="header-big-imgs" data-num-img=1 data-img-src-1="https://marvinpan8.github.io/" data-img-desc-1="Shenzhen China|Dec 14,2018"></div>
+  
+
+  <header class="header-section has-img">
+    
+      <div class="intro-header big-img">
+        
+        
+        <div class="container">
+          <div class="row">
+              <div class="col-lg-12 col-md-12 col-md-offset-0">
+                
+                <div class="post-heading">
+                
+                  
+                     <h1>微服务管理框架service mesh——istio安装笔记</h1>
+                     
+                     
+                  
+                  
+                  
+                    
+                      <hr class="small">
+                      <span class="post-subheading">手把手教你安装Istio service mesh</span>
+                    
+                  
+                  
+                    <span class="post-meta">
+  
+  Posted on March 3, 2019
+  
+  
+</span>
+
+
+                  
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <span class="img-desc" style="display: inline;"></span>
+      </div>
+    
+    <div class="intro-header no-img">
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-md-offset-0">
+            <div class="posts-heading">
+                <h1 align="center">微服务管理框架service mesh——istio安装笔记</h1>
+                
+                  
+                    <h2 align="center" class="posts-subheading">手把手教你安装Istio service mesh</h2>
+                  
+                
+                
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    
+<div class="container" role="main" itemscope itemtype="http://schema.org/Article">
+    <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            
+            
+              
+            <article role="main" class="blog-post" itemprop="articleBody" id="content">
+                
+
+                
+
+<p>本文是直接下载二进制安装，也可以进入<a href="https://github.com/kubernetes/kubernetes">k8s的github</a>,clone下来编译成二进制安装, 可查看本文件夹下《编译和运行Kubernetes源码》。</p>
+
+<h2 id="版本说明">版本说明</h2>
+
+<table>
+<thead>
+<tr>
+<th>组件</th>
+<th>版本号</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>centos</td>
+<td>7.6.1810</td>
+</tr>
+
+<tr>
+<td>k8s</td>
+<td>1.13.3</td>
+</tr>
+
+<tr>
+<td>docker</td>
+<td>18.06.2.ce-3.el7</td>
+</tr>
+
+<tr>
+<td>etcd</td>
+<td>3.2.24</td>
+</tr>
+
+<tr>
+<td>calico</td>
+<td>3.3.1</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="网络规划">网络规划</h2>
+
+<table>
+<thead>
+<tr>
+<th align="center">网络类型</th>
+<th align="center">地址网段</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center">物理网段</td>
+<td align="center">192.168.10.0/24</td>
+</tr>
+
+<tr>
+<td align="center">POD网段</td>
+<td align="center">172.30.0.0/16</td>
+</tr>
+
+<tr>
+<td align="center">SVC网段</td>
+<td align="center">10.254.0.0/16</td>
+</tr>
+</tbody>
+</table>
+
+<h2 id="二进制下载">二进制下载</h2>
+
+<ul>
+<li><a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG-1.13.md">k8s-v1.13.3-amd64</a></li>
+<li><a href="https://github.com/etcd-io/etcd/releases/tag/v3.2.24">etcd-v3.2.24</a></li>
+<li><a href="https://github.com/projectcalico/calico/releases/tag/v3.3.1">calico-v3.3.1</a>
+&mdash;</li>
+</ul>
+
+<h2 id="主机名">主机名</h2>
+
+<p>设置永久主机名称，然后重新登录:</p>
+
+<pre><code class="language-bash">hostnamectl set-hostname m7-autocv-gpu01 # 将 m7-autocv-gpu01 替换为当前主机名
+</code></pre>
+
+<ul>
+<li>设置的主机名保存在 <code>/etc/hostname</code> 文件中；</li>
+</ul>
+
+<p><strong>如果 DNS 不支持解析主机名称</strong>，则需要修改每台机器的 <code>/etc/hosts</code> 文件，添加主机名和 IP 的对应关系：</p>
+
+<pre><code class="language-bash">cat &gt;&gt; /etc/hosts &lt;&lt;EOF
+172.27.128.150 m7-autocv-gpu01	m7-autocv-gpu01
+172.27.128.149 m7-autocv-gpu02	m7-autocv-gpu02
+172.27.128.148 m7-autocv-gpu03	m7-autocv-gpu03
+EOF
+</code></pre>
+
+            </article>
+
+            <ul class="pager blog-pager">
+                 
+            </ul>
+            
+            <div>
+                 
+            </div>
+            
+            
+            
+              
+            </div>
+            
+            
+        </div>
+    </div>
+    </section>
+</div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+          
+        </ul>
+        <p class="credits copyright text-muted">
+        &copy;2017-2018
+          
+          
+          
+            &nbsp;&bull;&nbsp;
+            <a href="https://marvinpan8.github.io/">Marvin Pan</a>
+          
+        </p>
+
+        
+        <p class="credits theme-by text-muted">
+          <a href="http://gohugo.io">Hugo v0.54.0</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/rootsongjc/beautifulhugo">Beautiful Hugo</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<script src="https://res.cloudinary.com/jimmysong/raw/upload/rootsongjc-hugo/bootstrap.min.js"></script>
+<script src="https://res.cloudinary.com/jimmysong/raw/upload/rootsongjc-hugo/photoswipe-ui-default.min.js"></script>
+<script src="https://res.cloudinary.com/jimmysong/raw/upload/rootsongjc-hugo/photoswipe.min.js"></script>
+<script src="https://res.cloudinary.com/jimmysong/raw/upload/rootsongjc-hugo/auto-render.min.js"></script>
+<script src="https://res.cloudinary.com/jimmysong/raw/upload/rootsongjc-hugo/main.js"></script>
+<script src="https://res.cloudinary.com/jimmysong/raw/upload/rootsongjc-hugo/prism.js"></script>
+<script src="https://res.cloudinary.com/jimmysong/raw/upload/rootsongjc-hugo/katex.min.js"></script>
+<script> renderMathInElement(document.body); </script>
+
+
+
+
+
+
+
+  </body>
+</html>
+

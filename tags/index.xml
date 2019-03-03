@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Marvin Pan</title>
+    <link>https://marvinpan8.github.io/tags/</link>
+    <description>Recent content in Tags on Marvin Pan</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sun, 03 Mar 2019 14:46:12 +0800</lastBuildDate>
+    
+	<atom:link href="https://marvinpan8.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Istio</title>
+      <link>https://marvinpan8.github.io/tags/istio/</link>
+      <pubDate>Sun, 03 Mar 2019 14:46:12 +0800</pubDate>
+      
+      <guid>https://marvinpan8.github.io/tags/istio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kubernetes</title>
+      <link>https://marvinpan8.github.io/tags/kubernetes/</link>
+      <pubDate>Sun, 03 Mar 2019 14:46:12 +0800</pubDate>
+      
+      <guid>https://marvinpan8.github.io/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Service Mesh</title>
+      <link>https://marvinpan8.github.io/tags/service-mesh/</link>
+      <pubDate>Sun, 03 Mar 2019 14:46:12 +0800</pubDate>
+      
+      <guid>https://marvinpan8.github.io/tags/service-mesh/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
