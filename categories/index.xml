@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Marvin Pan</title>
-    <link>https://marvinpan8.github.io/categories/</link>
+    <link>http://www.marvinpan.com/categories/</link>
     <description>Recent content in Categories on Marvin Pan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     
-	<atom:link href="https://marvinpan8.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.marvinpan.com/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Cloud Native</title>
-      <link>https://marvinpan8.github.io/categories/cloud-native/</link>
+      <link>http://www.marvinpan.com/categories/cloud-native/</link>
       <pubDate>Sun, 03 Mar 2019 14:46:12 +0800</pubDate>
       
-      <guid>https://marvinpan8.github.io/categories/cloud-native/</guid>
+      <guid>http://www.marvinpan.com/categories/cloud-native/</guid>
       <description></description>
     </item>
     
