@@ -6,31 +6,18 @@
     <description>Recent content on Marvin Pan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 03 Mar 2019 14:46:12 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 09 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://marvinpan8.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>微服务管理框架service mesh——istio安装笔记</title>
-      <link>https://marvinpan8.github.io/posts/20190303/</link>
-      <pubDate>Sun, 03 Mar 2019 14:46:12 +0800</pubDate>
-      
-      <guid>https://marvinpan8.github.io/posts/20190303/</guid>
-      <description>本文是直接下载二进制安装，也可以进入k8s的github,clone下来编译成二进制安装, 可查看本文件夹下《编译和运行Kubernetes源码》。
-版本说明    组件 版本号     centos 7.6.1810   k8s 1.13.3   docker 18.06.2.ce-3.el7   etcd 3.2.24   calico 3.3.1    网络规划    网络类型 地址网段     物理网段 192.168.10.0/24   POD网段 172.30.0.0/16   SVC网段 10.254.0.0/16    二进制下载  k8s-v1.13.3-amd64 etcd-v3.2.24 calico-v3.3.1 &amp;mdash;  主机名 设置永久主机名称，然后重新登录:
-hostnamectl set-hostname m7-autocv-gpu01 # 将 m7-autocv-gpu01 替换为当前主机名  设置的主机名保存在 /etc/hostname 文件中；  如果 DNS 不支持解析主机名称，则需要修改每台机器的 /etc/hosts 文件，添加主机名和 IP 的对应关系：</description>
-    </item>
-    
-    <item>
       <title>微服务管理框架——kubernetes环境准备</title>
       <link>https://marvinpan8.github.io/posts/new/</link>
-      <pubDate>Sun, 03 Mar 2019 14:46:12 +0800</pubDate>
+      <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
       <guid>https://marvinpan8.github.io/posts/new/</guid>
-      <description>本文是直接下载二进制安装，也可以进入k8s的github,clone下来编译成二进制安装, 可查看本文件夹下《编译和运行Kubernetes源码》。
-版本说明    组件 版本号     centos 7.6.1810   k8s 1.13.3   docker 18.06.2.ce-3.el7   etcd 3.2.24   calico 3.3.1    网络规划    网络类型 地址网段     物理网段 192.168.10.0/24   POD网段 172.30.0.0/16   SVC网段 10.254.0.0/16    二进制下载  k8s-v1.13.3-amd64 etcd-v3.2.24 calico-v3.3.1 &amp;mdash;  主机名 设置永久主机名称，然后重新登录:
-hostnamectl set-hostname m7-autocv-gpu01 # 将 m7-autocv-gpu01 替换为当前主机名  设置的主机名保存在 /etc/hostname 文件中；  如果 DNS 不支持解析主机名称，则需要修改每台机器的 /etc/hosts 文件，添加主机名和 IP 的对应关系：</description>
+      <description>&lt;p&gt;本文是直接下载二进制安装，也可以进入&lt;a href=&#34;https://github.com/kubernetes/kubernetes&#34;&gt;k8s的github&lt;/a&gt;,clone下来编译成二进制安装, 可查看本文件夹下《编译和运行Kubernetes源码》。&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -183,6 +170,15 @@ Association football, more commonly known as football or soccer,[2] is a sport p
       
       <guid>https://marvinpan8.github.io/posts/2015-01-04-first-post/</guid>
       <description>This is my first post, how exciting!</description>
+    </item>
+    
+    <item>
+      <title>Hi,I&#39;m Marvin</title>
+      <link>https://marvinpan8.github.io/posts/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://marvinpan8.github.io/posts/about/</guid>
+      <description>&lt;p&gt;Welcome!&lt;/p&gt;</description>
     </item>
     
   </channel>

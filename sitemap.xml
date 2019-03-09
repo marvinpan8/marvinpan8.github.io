@@ -3,13 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://marvinpan8.github.io/posts/20190303/</loc>
-    <lastmod>2019-03-03T14:46:12+08:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://marvinpan8.github.io/posts/new/</loc>
-    <lastmod>2019-03-03T14:46:12+08:00</lastmod>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -68,6 +63,11 @@
   </url>
   
   <url>
+    <loc>https://marvinpan8.github.io/categories/about-me/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://marvinpan8.github.io/tags/bigimg/</loc>
     <lastmod>2017-03-07T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -80,7 +80,7 @@
   
   <url>
     <loc>https://marvinpan8.github.io/categories/cloud-native/</loc>
-    <lastmod>2019-03-03T14:46:12+08:00</lastmod>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -91,20 +91,30 @@
   </url>
   
   <url>
+    <loc>https://marvinpan8.github.io/tags/docker/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://marvinpan8.github.io/tags/etcd/</loc>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://marvinpan8.github.io/tags/example/</loc>
     <lastmod>2017-03-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://marvinpan8.github.io/tags/istio/</loc>
-    <lastmod>2019-03-03T14:46:12+08:00</lastmod>
-    <priority>0</priority>
+    <loc>https://marvinpan8.github.io/posts/about/</loc>
   </url>
   
   <url>
     <loc>https://marvinpan8.github.io/tags/kubernetes/</loc>
-    <lastmod>2019-03-03T14:46:12+08:00</lastmod>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -115,8 +125,13 @@
   </url>
   
   <url>
+    <loc>https://marvinpan8.github.io/tags/marvin/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://marvinpan8.github.io/</loc>
-    <lastmod>2019-03-03T14:46:12+08:00</lastmod>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -134,13 +149,7 @@
   
   <url>
     <loc>https://marvinpan8.github.io/posts/</loc>
-    <lastmod>2019-03-03T14:46:12+08:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://marvinpan8.github.io/tags/service-mesh/</loc>
-    <lastmod>2019-03-03T14:46:12+08:00</lastmod>
+    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
