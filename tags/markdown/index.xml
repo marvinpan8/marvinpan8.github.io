@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Markdown on Marvin Pan - 潘天君的博客|Cloud Native|云原生布道师</title>
+    <title>Markdown on Marvin Pan</title>
     <link>https://marvinpan.cn/tags/markdown/</link>
-    <description>Recent content in Markdown on Marvin Pan - 潘天君的博客|Cloud Native|云原生布道师</description>
+    <description>Recent content in Markdown on Marvin Pan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Fri, 20 Feb 2015 00:00:00 +0000</lastBuildDate>
