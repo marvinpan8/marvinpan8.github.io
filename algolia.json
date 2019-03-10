@@ -1,0 +1,172 @@
+[
+    {
+        "title": "First post!",
+        "uri": "posts/2015-01-04-first-post",
+        "content": "first post  exciting",
+        "objectID": "posts/2015-01-04-first-post",
+        "date": "2015-01-05T00:00:00.000Z"
+    },
+    {
+        "title": "Pirates arrrr",
+        "uri": "posts/2015-01-15-pirates",
+        "content": "Piracy typically act robbery criminal violence sea  term include acts committed land  air  major bodies water shore  does not normally include crimes committed against persons traveling vessel perpetrator  e g  one passenger stealing others vessel   term used throughout history refer raids across land borders non state agents",
+        "objectID": "posts/2015-01-15-pirates",
+        "date": "2015-01-15T00:00:00.000Z"
+    },
+    {
+        "title": "Soccer",
+        "uri": "posts/2015-01-19-soccer",
+        "content": "Wikipedia  Association football  commonly known football soccer 2  sport played two teams eleven players spherical ball  played 250 million players 200 countries  making world s popular sport  35 game played rectangular field goal end  object game score getting ball opposing goal  goalkeepers players allowed touch ball hands arms play penalty area  Outfield players mostly use feet strike pass ball  may use head torso strike ball instead  team scores goals end match wins  score level end game  either draw declared game goes extra time and or penalty shootout depending format competition  Laws Game originally codified England Football Association 1863  Association football governed internationally International Federation Association Football  FIFA  French  F d ration Internationale de Football Association  organises World Cup every four years  7",
+        "objectID": "posts/2015-01-19-soccer",
+        "subtitle": "Best sport ever!",
+        "date": "2015-01-19T00:00:00.000Z"
+    },
+    {
+        "title": "Dear diary",
+        "uri": "posts/2015-01-27-dear-diary",
+        "content": "Mary girl  Dragging school every day  choice  don t hear nursery rhymes she starves don t go school her  it s stay alive  I m thinking adopted Little Bo Peep  sure may lost  anything better Mary little brats school  shudder  shudder",
+        "objectID": "posts/2015-01-27-dear-diary",
+        "date": "2015-01-27T00:00:00.000Z"
+    },
+    {
+        "title": "To be",
+        "uri": "posts/2015-02-13-hamlet-monologue",
+        "content": "be  not be  that question  Whether  tis nobler mind suffer slings arrows outrageous fortune arms against sea troubles opposing end them  die  sleep   No more  and sleep say end heartache  thousand natural shocks flesh heir to   Tis consummation Devoutly wished  die  sleep   sleep  perchance dream  ay  there s rub  sleep death dreams may When shuffled off mortal coil  give us pause  There s respect makes calamity so long life  bear whips scorns time  Th  oppressor s wrong  proud man s contumely pangs despised love  law s delay  insolence office  spurns patient merit th  unworthy takes  When quietus bare bodkin  fardels bear  grunt sweat weary life  dread something death  undiscovered country  whose bourn No traveller returns  puzzles will  makes us rather bear ills fly others know not of  Thus conscience does cowards us all  thus native hue resolution sicklied o er pale cast thought  enterprise great pitch moment regard currents turn awry lose name action     Soft now  fair Ophelia     Nymph  thy orisons sins remembered",
+        "objectID": "posts/2015-02-13-hamlet-monologue",
+        "subtitle": "... or not to be?",
+        "date": "2015-02-13T00:00:00.000Z"
+    },
+    {
+        "title": "Test markdown",
+        "uri": "posts/2015-02-20-test-markdown",
+        "content": "write regular markdown Jekyll will automatically convert nice webpage  strongly encourage 5 minutes learn write markdown   it ll teach transform regular text bold italics headings tables etc  bold text secondary heading Here s useless table    Number   Next number   Previous number                              Five   Six   Four     Ten   Eleven   Nine     Seven   Eight   Six     Two   Three   One   yummy crepe  Here s code chunk syntax highlighting   javascript var foo   function x    return x   5     foo 3",
+        "objectID": "posts/2015-02-20-test-markdown",
+        "subtitle": "Each post also has a subtitle",
+        "date": "2015-02-20T00:00:00.000Z",
+        "tags": [
+            "example",
+            "markdown"
+        ]
+    },
+    {
+        "title": "Flake it till you make it",
+        "uri": "posts/2015-02-26-flake-it-till-you-make-it",
+        "content": "circumstances step off path  When essential finish start  bought bag peanuts allergic reaction  no one fault threw out  ended relationship woman hit me  no one say commitment problem  walk away seemingly secure route soul ideas  flake  truth no one else definitively know path walk  It s tempting listen many us long omnipotent other but unless genuine psychic intuitives  can t know  others know own truth  they ve actually done work excavate it  will good sense know cannot genuinely know anyone else s  soul knows path walk  one living temple  know its scriptures interpretive structure  heart struggle two different ideas success survival driven soul driven  survivalists  success security  pragmatism  power others  Success absence material suffering  nourishing soul damned  odd ironic thing material power world often resides hands younger souls  working egoic material realms  love sensations power focus energy accumulation  Older souls tend not materially driven  already played worldly game previous lives search subtle shades meaning one authentication rather accumulation  often ignored culture large  although really truest warriors  soulful notion success rests actualization innate image  Success simply completion soul step  however unsightly may be  finished started when lesson learned  fear based culture calls wonderful opportunity may fruitless misguided soul  Staying passionless relationship may satisfy need comfort  may stifle soul  Becoming famous lawyer worthwhile soul demands it  essential failure called monastic time around  need explore abandon ten careers order stretch soul toward its innate image  so it  Flake till it",
+        "objectID": "posts/2015-02-26-flake-it-till-you-make-it",
+        "subtitle": "Excerpt from Soulshaping by Jeff Brown",
+        "date": "2015-02-26T00:00:00.000Z",
+        "bigimg": [
+            {
+                "src": "/img/path.jpg",
+                "desc": "Path"
+            }
+        ]
+    },
+    {
+        "title": "Code Sample",
+        "uri": "posts/2016-03-08-code-sample",
+        "content": "following two code samples using syntax highlighting  following code sample using triple backticks       code fencing provided Hugo  client side highlighting does not require special installation   javascript var num1  num2  sum num1   prompt  Enter first number   num2   prompt  Enter second number   sum   parseInt num1    parseInt num2         means  add  alert  Sum       sum         means combine string   following code sample using  highlight  shortcode provided Hugo  server side highlighting requires Python Pygments installed       var num1  num2  sum num1   prompt  Enter first number   num2   prompt  Enter second number   sum   parseInt num1    parseInt num2         means  add  alert  Sum       sum         means combine string      code line numbers       var num1  num2  sum num1   prompt  Enter first number   num2   prompt  Enter second number   sum   parseInt num1    parseInt num2         means  add  alert  Sum       sum         means combine string",
+        "objectID": "posts/2016-03-08-code-sample",
+        "subtitle": "Using Hugo or Pygments",
+        "date": "2016-03-08T00:00:00.000Z",
+        "tags": [
+            "example",
+            "code"
+        ]
+    },
+    {
+        "title": "Math Sample",
+        "uri": "posts/2017-03-05-math-sample",
+        "content": "KaTeX used generate complex math formulas server side      phi    frac  1  sqrt 5    2    1 6180339887 cdots    Additional details found GitHub Wiki  Example 1 text    contains newlines will rendered display mode       f x     int_   infty   infty hat f  xi   e  2  pi  xi x   d xi         f x     int_   infty   infty hat f  xi   e  2  pi  xi x   d xi    Example 2       frac 1   Bigl  sqrt  phi  sqrt 5    phi Bigr  e   frac25  pi     1  frac e   2 pi    1  frac e   4 pi    1  frac e   6 pi    1  frac e   8 pi    1  cdots                   frac 1   Bigl  sqrt  phi  sqrt 5    phi Bigr  e   frac25  pi     1  frac e   2 pi    1  frac e   4 pi    1  frac e   6 pi    1  frac e   8 pi    1  cdots              Example 3      1    frac q 2   1 q    frac q 6   1 q  1 q 2    cdots    prod_ j 0    infty  frac 1   1 q  5j 2   1 q  5j 3      quad quad  text for   lvert q rvert",
+        "objectID": "posts/2017-03-05-math-sample",
+        "subtitle": "Using KaTeX",
+        "date": "2017-03-05T00:00:00.000Z",
+        "tags": [
+            "example",
+            "math"
+        ]
+    },
+    {
+        "title": "Big Image Sample",
+        "uri": "posts/2017-03-07-bigimg-sample",
+        "content": "image banners top page refered  bigimg  theme  optional  one specified  one specified  images rotate every 10 seconds  front matter  bigimgs specified using array hashes  single bigimg specified front matter following YAML    bigimg    src    img triangle jpg   desc   Triangle      Multiple bigimgs specified front matter following YAML    bigimg    src    img triangle jpg   desc   Triangle     src    img sphere jpg   desc   Sphere     src    img hexagon jpg   desc   Hexagon      note description field optional  images instead specified by    bigimg    src    img triangle jpg     src    img sphere jpg     src    img hexagon jpg      above YAML array hashes written  flow  style  However when generating new page post hugo new post mypost md  hugo may interpret archetype bigimg default YAML style  Defining multiple bigimg s complete descriptions style specified by    bigimg   src    img triangle jpg   desc   Triangle    src    img sphere jpg   desc   Sphere    src    img hexagon jpg   desc   Hexagon     Additional information found YAML tutorial",
+        "objectID": "posts/2017-03-07-bigimg-sample",
+        "subtitle": "Using Multiple Images",
+        "date": "2017-03-07T00:00:00.000Z",
+        "tags": [
+            "example",
+            "bigimg"
+        ],
+        "bigimg": [
+            {
+                "src": "/img/triangle.jpg",
+                "desc": "Triangle"
+            },
+            {
+                "src": "/img/sphere.jpg",
+                "desc": "Sphere"
+            },
+            {
+                "src": "/img/hexagon.jpg",
+                "desc": "Hexagon"
+            }
+        ]
+    },
+    {
+        "title": "Photoswipe Gallery Sample",
+        "uri": "posts/2017-03-20-photoswipe-gallery-sample",
+        "content": "Beautiful Hugo adds few custom shortcodes created Li Wen Yip Gert Jan van den Berg making galleries PhotoSwipe                            Example above gallery created using following shortcodes                               Usage full details please hugo easy gallery GitHub page  Basic usages above are  Create gallery open close tags                will use image jpg thumbnail lightbox      will use thumb jpg thumbnail image jpg lightbox      will use image small jpg thumbnail image jpg lightbox features parameters Hugo s built in figure shortcode work normal  i e  src  link  title  caption  class  attr  attribution   attrlink  alt      will fade captions figures gallery instead default slide up behavior gallery styles captions hover effects exist  view hugo easy gallery GitHub options Note theme will load photoswipe gallery theme scripts default  no need load photoswipe individual pages",
+        "objectID": "posts/2017-03-20-photoswipe-gallery-sample",
+        "subtitle": "Making a Gallery",
+        "date": "2017-03-20T00:00:00.000Z",
+        "tags": [
+            "example",
+            "photoswipe"
+        ]
+    },
+    {
+        "date": "2019-03-09T20:18:57+08:00",
+        "uri": "posts/about",
+        "content": "Welcome  Info Marvin Pan      Shenzhen  China      Career ROSSLARE CITIC Infosys LAN YOU Investoday Bio Marvin Pan Developer Advocate Cloud Native Investoday  organized few Special Interest Groups China years covering Kubernetes  Cloud Native Service Mesh  co founder ServiceMesher community  blogging coding years Cloud Native  translated Cloud Native Go   Python   Java books Chinese  Marvin lives Shenzhen spends free time photographing traveling  Contact Email  18688826895 163 com Phone   Weixin  18688826895",
+        "objectID": "posts/about",
+        "title": "Hi,I'm Marvin",
+        "subtitle": "A CNCF Ambassador and Developer Advocate on Cloud Native",
+        "categories": "about-me",
+        "tags": [
+            "marvin"
+        ],
+        "description": "对文章的简要描述 SEO used for description",
+        "bigimg": [
+            {
+                "src": "/img/data-science-1.jpg",
+                "desc:\"Shenzhen China|Mar 9": null,
+                "2019\"": null
+            }
+        ],
+        "nocomment": true,
+        "postmeta": false,
+        "notoc": "ture"
+    },
+    {
+        "title": "微服务管理框架——kubernetes环境准备",
+        "uri": "posts/new",
+        "content": "k8s github clone                          Kubernetes                                                       centos   7 6 1810     k8s   1 13 3     docker   18 06 2 ce 3 el7     etcd   3 2 24     calico   3 3 1                                                                192 168 10 0 24     POD     172 30 0 0 16     SVC     10 254 0 0 16         k8s v1 13 3 amd64 etcd v3 2 24 calico v3 3 1                      hostnamectl set hostname m7 autocv gpu01     m7 autocv gpu01                     etc hostname         DNS                       etc hosts           IP        cat     etc hosts",
+        "objectID": "posts/new",
+        "subtitle": "手把手教你安装 kubernetes",
+        "categories": "cloud-native",
+        "tags": [
+            "kubernetes",
+            "docker",
+            "etcd"
+        ],
+        "description": "对文章的简要描述 SEO used for description",
+        "bigimg": [
+            {
+                "src": "/img/data-science-1.jpg",
+                "desc:\"Shenzhen China|Dec 14": null,
+                "2018\"": null
+            }
+        ],
+        "date": "2019-03-09T00:00:00.000Z"
+    }
+]
