@@ -2,102 +2,102 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Marvin Pan</title>
-    <link>https://www.marvinpan.cn/tags/</link>
+    <link>https://marvinpan.cn/tags/</link>
     <description>Recent content in Tags on Marvin Pan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 07 Mar 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://www.marvinpan.cn/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://marvinpan.cn/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Bigimg</title>
-      <link>https://www.marvinpan.cn/tags/bigimg/</link>
+      <link>https://marvinpan.cn/tags/bigimg/</link>
       <pubDate>Tue, 07 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.marvinpan.cn/tags/bigimg/</guid>
+      <guid>https://marvinpan.cn/tags/bigimg/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Code</title>
-      <link>https://www.marvinpan.cn/tags/code/</link>
+      <link>https://marvinpan.cn/tags/code/</link>
       <pubDate>Tue, 08 Mar 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://www.marvinpan.cn/tags/code/</guid>
+      <guid>https://marvinpan.cn/tags/code/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Docker</title>
-      <link>https://www.marvinpan.cn/tags/docker/</link>
+      <link>https://marvinpan.cn/tags/docker/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.marvinpan.cn/tags/docker/</guid>
+      <guid>https://marvinpan.cn/tags/docker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Etcd</title>
-      <link>https://www.marvinpan.cn/tags/etcd/</link>
+      <link>https://marvinpan.cn/tags/etcd/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.marvinpan.cn/tags/etcd/</guid>
+      <guid>https://marvinpan.cn/tags/etcd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Example</title>
-      <link>https://www.marvinpan.cn/tags/example/</link>
+      <link>https://marvinpan.cn/tags/example/</link>
       <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.marvinpan.cn/tags/example/</guid>
+      <guid>https://marvinpan.cn/tags/example/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Kubernetes</title>
-      <link>https://www.marvinpan.cn/tags/kubernetes/</link>
+      <link>https://marvinpan.cn/tags/kubernetes/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://www.marvinpan.cn/tags/kubernetes/</guid>
+      <guid>https://marvinpan.cn/tags/kubernetes/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Markdown</title>
-      <link>https://www.marvinpan.cn/tags/markdown/</link>
+      <link>https://marvinpan.cn/tags/markdown/</link>
       <pubDate>Fri, 20 Feb 2015 00:00:00 +0000</pubDate>
       
-      <guid>https://www.marvinpan.cn/tags/markdown/</guid>
+      <guid>https://marvinpan.cn/tags/markdown/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Marvin</title>
-      <link>https://www.marvinpan.cn/tags/marvin/</link>
+      <link>https://marvinpan.cn/tags/marvin/</link>
       <pubDate>Sat, 09 Mar 2019 20:18:57 +0800</pubDate>
       
-      <guid>https://www.marvinpan.cn/tags/marvin/</guid>
+      <guid>https://marvinpan.cn/tags/marvin/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Math</title>
-      <link>https://www.marvinpan.cn/tags/math/</link>
+      <link>https://marvinpan.cn/tags/math/</link>
       <pubDate>Sun, 05 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.marvinpan.cn/tags/math/</guid>
+      <guid>https://marvinpan.cn/tags/math/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Photoswipe</title>
-      <link>https://www.marvinpan.cn/tags/photoswipe/</link>
+      <link>https://marvinpan.cn/tags/photoswipe/</link>
       <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://www.marvinpan.cn/tags/photoswipe/</guid>
+      <guid>https://marvinpan.cn/tags/photoswipe/</guid>
       <description></description>
     </item>
     
