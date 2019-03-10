@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Etcd on Marvin Pan</title>
-    <link>https://marvinpan8.github.io/tags/etcd/</link>
+    <link>https://www.marvinpan.cn/tags/etcd/</link>
     <description>Recent content in Etcd on Marvin Pan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 09 Mar 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://marvinpan8.github.io/tags/etcd/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.marvinpan.cn/tags/etcd/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>微服务管理框架——kubernetes环境准备</title>
-      <link>https://marvinpan8.github.io/posts/new/</link>
+      <link>https://www.marvinpan.cn/posts/new/</link>
       <pubDate>Sat, 09 Mar 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://marvinpan8.github.io/posts/new/</guid>
+      <guid>https://www.marvinpan.cn/posts/new/</guid>
       <description>&lt;p&gt;本文是直接下载二进制安装，也可以进入&lt;a href=&#34;https://github.com/kubernetes/kubernetes&#34;&gt;k8s的github&lt;/a&gt;,clone下来编译成二进制安装, 可查看本文件夹下《编译和运行Kubernetes源码》。&lt;/p&gt;</description>
     </item>
     
