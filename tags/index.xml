@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Marvin Pan</title>
+    <title>Tags on Marvin Pan - 潘天君的博客|Cloud Native|云原生布道师</title>
     <link>https://marvinpan.cn/tags/</link>
-    <description>Recent content in Tags on Marvin Pan</description>
+    <description>Recent content in Tags on Marvin Pan - 潘天君的博客|Cloud Native|云原生布道师</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 07 Mar 2017 00:00:00 +0000</lastBuildDate>
@@ -75,11 +75,11 @@
     </item>
     
     <item>
-      <title>Marvin</title>
-      <link>https://marvinpan.cn/tags/marvin/</link>
+      <title>Marvinpan</title>
+      <link>https://marvinpan.cn/tags/marvinpan/</link>
       <pubDate>Sat, 09 Mar 2019 20:18:57 +0800</pubDate>
       
-      <guid>https://marvinpan.cn/tags/marvin/</guid>
+      <guid>https://marvinpan.cn/tags/marvinpan/</guid>
       <description></description>
     </item>
     
