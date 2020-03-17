@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Marvin on Marvin Pan</title>
-    <link>https://marvinpan.cn/tags/marvin/</link>
+    <link>https://marvinpan.com/tags/marvin/</link>
     <description>Recent content in Marvin on Marvin Pan</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 09 Mar 2019 20:18:57 +0800</lastBuildDate>
     
-	<atom:link href="https://marvinpan.cn/tags/marvin/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://marvinpan.com/tags/marvin/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hi,I&#39;m Marvin</title>
-      <link>https://marvinpan.cn/posts/about/</link>
+      <link>https://marvinpan.com/posts/about/</link>
       <pubDate>Sat, 09 Mar 2019 20:18:57 +0800</pubDate>
       
-      <guid>https://marvinpan.cn/posts/about/</guid>
+      <guid>https://marvinpan.com/posts/about/</guid>
       <description>&lt;p&gt;Welcome!&lt;/p&gt;</description>
     </item>
     
