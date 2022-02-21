@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0,user-scalable=no,minimal-ui,viewport-fit=cover">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta content="telephone=no" name="format-detection" />
+  <title>甲功五项趋势图</title>
+  <!-- 引入刚刚下载的 ECharts 文件 -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+</head>
+
+<body>
+  <h1 style="text-align:center;">潘彧堃甲功五项趋势图</h1>
+  <!-- 为 ECharts 准备一个定义了宽高的 DOM -->
+  <div id="t3" style="width: 600px;height:400px;float:left;"></div>
+  <div id="t4" style="width: 600px;height:400px;float:right;"></div>
+  <div id="ft3" style="width: 600px;height:400px;float:left;"></div>
+  <div id="ft4" style="width: 600px;height:400px;float:right;"></div>
+  <div id="tsh" style="width: 600px;height:400px;float:left;"></div>
+  <script type="text/javascript">
+    // 基于准备好的dom，初始化echarts实例
+    var myChart = echarts.init(document.getElementById('t3'));
+    // 指定图表的配置项和数据
+    var option = {
+      title: {
+        text: 'T3三碘甲状原氨酸'
+      },
+      tooltip: {
+        show: true
+      },
+      legend: {
+        data: ['潘彧堃', '最低值', '最高值']
+      },
+      xAxis: {
+        data: ['2021/12/27', '2022/01/14', '2022/02/13']
+      },
+      yAxis: {},
+      series: [
+        {
+          name: '最低值',
+          type: 'line',
+          data: [1.4, 1.4, 1.4],
+          label: {
+            show: true,
+            position: 'top',
+            fontSize: 14
+          }
+        },
+        {
+          name: '潘彧堃',
+          type: 'line',
+          data: [1.250, 1.280, 1.140],
+          label: {
+            show: true,
+            position: 'bottom',
+            fontSize: 14
+          }
+        },
+        {
+          name: '最高值',
+          type: 'line',
+          data: [4.0, 4.0, 4.0]
+        }
+      ]
+    };
+    // 使用刚指定的配置项和数据显示图表。
+    myChart.setOption(option);
+    window.onresize = myChart.resize; 
+
+    // 基于准备好的dom，初始化echarts实例
+    var myChart2 = echarts.init(document.getElementById('t4'));
+    // 指定图表的配置项和数据
+    var option2 = {
+      title: {
+        text: 'T4甲状腺素'
+      },
+      tooltip: {
+        show: true
+      },
+      legend: {
+        data: ['潘彧堃', '最低值', '最高值']
+      },
+      xAxis: {
+        data: ['2021/12/27', '2022/01/14', '2022/02/13']
+      },
+      yAxis: {},
+      series: [
+        {
+          name: '最低值',
+          type: 'line',
+          data: [77, 77, 77],
+          label: {
+            show: true,
+            position: 'top',
+            fontSize: 14
+          }
+        },
+        {
+          name: '潘彧堃',
+          type: 'line',
+          data: [74.750, 67.790, 56.860],
+          label: {
+            show: true,
+            position: 'bottom',
+            fontSize: 14
+          }
+        },
+        {
+          name: '最高值',
+          type: 'line',
+          data: [180, 180, 180]
+        }
+      ]
+    };
+    // 使用刚指定的配置项和数据显示图表。
+    myChart2.setOption(option2);
+    window.onresize = myChart2.resize; 
+
+    // 基于准备好的dom，初始化echarts实例
+    var myChart4 = echarts.init(document.getElementById('ft3'));
+    // 指定图表的配置项和数据
+    var option4 = {
+      title: {
+        text: 'FT3游离三碘甲原氨酸'
+      },
+      tooltip: {
+        show: true
+      },
+      legend: {
+        data: ['潘彧堃', '最低值', '最高值']
+      },
+      xAxis: {
+        data: ['2021/12/27', '2022/01/14', '2022/02/13']
+      },
+      yAxis: {},
+      series: [
+        {
+          name: '最低值',
+          type: 'line',
+          data: [3.7, 3.7, 3.7],
+          label: {
+            show: true,
+            position: 'bottom',
+            fontSize: 14
+          }
+        },
+        {
+          name: '潘彧堃',
+          type: 'line',
+          data: [4.660, 4.620, 4.210],
+          label: {
+            show: true,
+            position: 'top',
+            fontSize: 14
+          }
+        },
+        {
+          name: '最高值',
+          type: 'line',
+          data: [8.6, 8.6, 8.6]
+        }
+      ]
+    };
+    // 使用刚指定的配置项和数据显示图表。
+    myChart4.setOption(option4);
+    window.onresize = myChart4.resize; 
+
+
+    // 基于准备好的dom，初始化echarts实例
+    var myChart5 = echarts.init(document.getElementById('ft4'));
+    // 指定图表的配置项和数据
+    var option5 = {
+      title: {
+        text: 'FT4游离甲状腺素'
+      },
+      tooltip: {},
+      legend: {
+        data: ['潘彧堃', '最低值', '最高值']
+      },
+      xAxis: {
+        data: ['2021/12/27', '2022/01/14', '2022/02/13']
+      },
+      yAxis: {},
+      series: [
+        {
+          name: '最低值',
+          type: 'line',
+          data: [9, 9, 9],
+          label: {
+            show: true,
+            position: 'bottom',
+            fontSize: 14
+          }
+        },
+        {
+          name: '潘彧堃',
+          type: 'line',
+          data: [13.600, 14.510, 12.690],
+          label: {
+            show: true,
+            position: 'top',
+            fontSize: 14
+          }
+        },
+        {
+          name: '最高值',
+          type: 'line',
+          data: [25.7, 25.7, 25.7]
+        }
+      ]
+    };
+    // 使用刚指定的配置项和数据显示图表。
+    myChart5.setOption(option5);
+    window.onresize = myChart5.resize; 
+
+
+        // 基于准备好的dom，初始化echarts实例
+        var myChart3 = echarts.init(document.getElementById('tsh'));
+    // 指定图表的配置项和数据
+    var option3 = {
+      title: {
+        text: 'TSH促甲状腺激素'
+      },
+      tooltip: {
+        show: true
+      },
+      legend: {
+        data: ['潘彧堃', '最低值', '最高值']
+      },
+      xAxis: {
+        data: ['2021/12/27', '2022/01/14', '2022/02/13']
+      },
+      yAxis: {},
+      series: [
+        {
+          name: '最低值',
+          type: 'line',
+          data: [0.5, 0.5, 0.5]
+        },
+        {
+          name: '潘彧堃',
+          type: 'line',
+          data: [12.175, 3.116, 3.924],
+          label: {
+            show: true,
+            position: 'bottom',
+            fontSize: 14
+          }
+        },
+        {
+          name: '最高值',
+          type: 'line',
+          data: [6.0, 6.0, 6.0],
+          label: {
+            show: true,
+            position: 'top',
+            fontSize: 14
+          }
+        }
+      ]
+    };
+    // 使用刚指定的配置项和数据显示图表。
+    myChart3.setOption(option3);
+    window.onresize = myChart3.resize; 
+
+  </script>
+</body>
+
+</html>
