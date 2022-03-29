@@ -26,7 +26,7 @@
     // 指定图表的配置项和数据
     var option = {
       title: {
-        text: 'T3三碘甲状原氨酸'
+        text: 'T3'
       },
       tooltip: {
         show: true
@@ -35,15 +35,18 @@
         data: ['潘彧堃', '最低值', '最高值']
       },
       xAxis: {
-        data: ['2021/12/27', '2022/01/14', '2022/02/13']
+        data: ['2021/12/27', '2022/01/14', '2022/02/13', '2022/03/26']
       },
-      yAxis: {},
+      yAxis: {
+        type: 'value',
+        name: 'nmol/L'
+      },
       series: [
         {
           name: '最低值',
           type: 'line',
-          data: [1.4, 1.4, 1.4],
-          label: {
+          data: [1.4, 1.4, 1.4, 1.4],
+          endLabel: {
             show: true,
             position: 'top',
             fontSize: 14
@@ -52,7 +55,7 @@
         {
           name: '潘彧堃',
           type: 'line',
-          data: [1.250, 1.280, 1.140],
+          data: [1.3, 1.3, 1.1, 1.3],
           label: {
             show: true,
             position: 'bottom',
@@ -62,7 +65,12 @@
         {
           name: '最高值',
           type: 'line',
-          data: [4.0, 4.0, 4.0]
+          data: [4.0, 4.0, 4.0, 4.0],
+          endLabel: {
+            show: true,
+            position: 'top',
+            fontSize: 14
+          }
         }
       ]
     };
@@ -75,7 +83,7 @@
     // 指定图表的配置项和数据
     var option2 = {
       title: {
-        text: 'T4甲状腺素'
+        text: 'T4'
       },
       tooltip: {
         show: true
@@ -84,15 +92,18 @@
         data: ['潘彧堃', '最低值', '最高值']
       },
       xAxis: {
-        data: ['2021/12/27', '2022/01/14', '2022/02/13']
+        data: ['2021/12/27', '2022/01/14', '2022/02/13', '2022/03/26']
       },
-      yAxis: {},
+      yAxis: {
+        type: 'value',
+        name: 'nmol/L'
+      },
       series: [
         {
           name: '最低值',
           type: 'line',
-          data: [77, 77, 77],
-          label: {
+          data: [77, 77, 77, 77],
+          endLabel: {
             show: true,
             position: 'top',
             fontSize: 14
@@ -101,7 +112,7 @@
         {
           name: '潘彧堃',
           type: 'line',
-          data: [74.750, 67.790, 56.860],
+          data: [74.8, 67.8, 56.9, 61.5],
           label: {
             show: true,
             position: 'bottom',
@@ -111,7 +122,12 @@
         {
           name: '最高值',
           type: 'line',
-          data: [180, 180, 180]
+          data: [180, 180, 180, 180],
+          endLabel: {
+            show: true,
+            position: 'top',
+            fontSize: 14
+          }
         }
       ]
     };
@@ -124,7 +140,7 @@
     // 指定图表的配置项和数据
     var option4 = {
       title: {
-        text: 'FT3游离三碘甲原氨酸'
+        text: 'FT3'
       },
       tooltip: {
         show: true
@@ -133,15 +149,18 @@
         data: ['潘彧堃', '最低值', '最高值']
       },
       xAxis: {
-        data: ['2021/12/27', '2022/01/14', '2022/02/13']
+        data: ['2021/12/27', '2022/01/14', '2022/02/13', '2022/03/26']
       },
-      yAxis: {},
+      yAxis: {
+        type: 'value',
+        name: 'pmol/L'
+      },
       series: [
         {
           name: '最低值',
           type: 'line',
-          data: [3.7, 3.7, 3.7],
-          label: {
+          data: [3.7, 3.7, 3.7, 3.7],
+          endLabel: {
             show: true,
             position: 'bottom',
             fontSize: 14
@@ -150,7 +169,7 @@
         {
           name: '潘彧堃',
           type: 'line',
-          data: [4.660, 4.620, 4.210],
+          data: [4.7, 4.6, 4.2, 4.7],
           label: {
             show: true,
             position: 'top',
@@ -160,7 +179,12 @@
         {
           name: '最高值',
           type: 'line',
-          data: [8.6, 8.6, 8.6]
+          data: [8.6, 8.6, 8.6, 8.6],
+          endLabel: {
+            show: true,
+            position: 'top',
+            fontSize: 14
+          }
         }
       ]
     };
@@ -174,22 +198,25 @@
     // 指定图表的配置项和数据
     var option5 = {
       title: {
-        text: 'FT4游离甲状腺素'
+        text: 'FT4'
       },
       tooltip: {},
       legend: {
         data: ['潘彧堃', '最低值', '最高值']
       },
       xAxis: {
-        data: ['2021/12/27', '2022/01/14', '2022/02/13']
+        data: ['2021/12/27', '2022/01/14', '2022/02/13', '2022/03/26']
       },
-      yAxis: {},
+      yAxis: {
+        type: 'value',
+        name: 'pmol/L'
+      },
       series: [
         {
           name: '最低值',
           type: 'line',
-          data: [9, 9, 9],
-          label: {
+          data: [9, 9, 9, 9],
+          endLabel: {
             show: true,
             position: 'bottom',
             fontSize: 14
@@ -198,7 +225,7 @@
         {
           name: '潘彧堃',
           type: 'line',
-          data: [13.600, 14.510, 12.690],
+          data: [13.6, 14.5, 12.7, 12.2],
           label: {
             show: true,
             position: 'top',
@@ -208,7 +235,12 @@
         {
           name: '最高值',
           type: 'line',
-          data: [25.7, 25.7, 25.7]
+          data: [25.7, 25.7, 25.7, 25.7],
+          endLabel: {
+            show: true,
+            position: 'top',
+            fontSize: 14
+          }
         }
       ]
     };
@@ -222,7 +254,7 @@
     // 指定图表的配置项和数据
     var option3 = {
       title: {
-        text: 'TSH促甲状腺激素'
+        text: 'TSH'
       },
       tooltip: {
         show: true
@@ -231,30 +263,38 @@
         data: ['潘彧堃', '最低值', '最高值']
       },
       xAxis: {
-        data: ['2021/12/27', '2022/01/14', '2022/02/13']
+        data: ['2021/12/27', '2022/01/14', '2022/02/13', '2022/03/26']
       },
-      yAxis: {},
+      yAxis: {
+        type: 'value',
+        name: 'uIU/mL'
+      },
       series: [
         {
           name: '最低值',
           type: 'line',
-          data: [0.5, 0.5, 0.5]
+          data: [0.5, 0.5, 0.5, 0.5],
+          endLabel: {
+            show: true,
+            position: 'top',
+            fontSize: 14
+          }
         },
         {
           name: '潘彧堃',
           type: 'line',
-          data: [12.175, 3.116, 3.924],
+          data: [12.2, 3.1, 3.9, 1.5],
           label: {
             show: true,
-            position: 'bottom',
+            position: 'top',
             fontSize: 14
           }
         },
         {
           name: '最高值',
           type: 'line',
-          data: [6.0, 6.0, 6.0],
-          label: {
+          data: [6.0, 6.0, 6.0, 6.0],
+          endLabel: {
             show: true,
             position: 'top',
             fontSize: 14
