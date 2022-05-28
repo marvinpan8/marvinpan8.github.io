@@ -11,4 +11,4 @@
 
 
 ### 参考
-https://jimmysong.io/
+https://jimmysong.io/hugo-handbook
